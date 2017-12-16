@@ -36,6 +36,11 @@ li, a {
     font-size: 1em;
 }
 
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #3a69b5;
+}
+
 /* Navigation */
 
 header {
@@ -48,6 +53,22 @@ a.navbar-brand {
     font-weight: 600;
 }
 
+a.navbar-brand:hover {
+    border-bottom: none;
+}
+
+ul.navbar-nav li.nav-item {
+    padding: 0.25em 0.75em 0; 
+}
+
+ul.navbar-nav a.nav-link {
+    padding: 0!important;
+}
+
+ul.navbar-nav a.nav-link:hover {
+    border-bottom: 1px solid #000;
+}
+
 /* Banner */
 
 div.jumbotron div.container h4,
@@ -56,30 +77,50 @@ div.jumbotron div.container h2 {
 }
 
 div.banner {
+    display: flex;
+    align-items: flex-end;
     margin-bottom: 0;
     padding: 5.75em 1.75em 0 1.75em;
-    background-color: #c6daee;
+    height: 350px;
+    background-image: url(../images/d-ta-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+div.banner h2 {
+    color: #3a69b5;
+    font-size: 2.25em;
 }
 
 div.banner-text-background {
-    background-color: #e5eff7;
-    padding: 1.25em 0.75em 0.75em 0.75em;
+    background-color: rgba(198, 218, 238, 0.85);
+    padding: 1.25em 1.75em 0.75em 0.75em;
 }
 
 /* Sensor Processors */
 
 section.sensor-processors {
-    padding: 1.75em 0;
+    padding: 2.75em 15px;
+}
+
+.dark-blue {
+    color: #3a69b5;
 }
 
 div.phone-number {
     background-color: #e5eff7;
-    padding: 0.75em;
+    padding: 1.25em 1.25em 0.75em;
 }
 
 div.phone-number h2,
-div.phone-number h6 {
+div.phone-number h5 {
     text-align: right;  
+}
+
+div.phone-number h2 {
+    font-size: 2.25em;
 }
 
 div.watch-video h3,
@@ -101,6 +142,12 @@ div.watch-video i {
 
 div.home-page-img-divider {
     height: 195px;
+    background-image: url(../images/pattern.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
 }
 
 /* Deployed Ready Solutions */
@@ -110,11 +157,25 @@ section.deployed-ready-solutions li,
     font-size: 1.15em;
 }
 
+section.deployed-ready-solutions > div {
+    padding: 1.25em 0;
+}
+
 div.feature-month {
     height: auto;
     width: 100%;
-    padding: 3em 2em;
+    padding: 2.25em 2em;
     margin: 0;
+    background-color: #e5eff7;
+}
+
+a.monthly-feature {
+    color: #000;
+}
+
+a.monthly-feature:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
 }
 
 div.feature-month h3,
@@ -133,6 +194,38 @@ footer h4,
 footer h6 {
     margin: 0;
     text-align: center;
+}
+
+footer h4 {
+    margin-bottom: 0.75em;
+}
+
+footer div.social-media-icons {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer div.social-media-icons a {
+    color: #000;
+}
+
+footer div.social-media-icons a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+footer div p {
+    display: inline-block;
+    margin-right: 1.25em;
+}
+
+footer div p:last-child {
+    margin-right: 0;
+}
+
+footer div p i {
+    margin-right: 0.45em;
 }
 
 
