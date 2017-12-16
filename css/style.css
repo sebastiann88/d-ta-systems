@@ -1,0 +1,67 @@
+/* Typography */
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Share Tech', sans-serif;
+}
+
+h6, p, li, a {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+li, a {
+    font-size: 1em;
+}
+
+/* Navigation */
+
+header {
+    background-color: #e5eff7;
+}
+
+a.navbar-brand {
+    font-family: 'Khand', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/* Banner */
+
+div.jumbotron div.container h4,
+div.jumbotron div.container h2 {
+    text-align: right;
+}
+
+div.banner {
+    margin-bottom: 0;
+    padding: 5.75em 1.75em 0 1.75em;
+    background-color: #c6daee;
+}
+
+div.banner-text-background {
+    background-color: #e5eff7;
+    padding: 1.25em 0.75em 0.75em 0.75em;
+}
