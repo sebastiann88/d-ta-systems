@@ -44,7 +44,7 @@ header {
 
 a.navbar-brand {
     font-family: 'Khand', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.65em;
     font-weight: 600;
 }
 
@@ -65,3 +65,76 @@ div.banner-text-background {
     background-color: #e5eff7;
     padding: 1.25em 0.75em 0.75em 0.75em;
 }
+
+/* Sensor Processors */
+
+section.sensor-processors {
+    padding: 1.75em 0;
+}
+
+div.phone-number {
+    background-color: #e5eff7;
+    padding: 0.75em;
+}
+
+div.phone-number h2,
+div.phone-number h6 {
+    text-align: right;  
+}
+
+div.watch-video h3,
+div.watch-video h5 {
+    display: inline-block;
+}
+
+div.watch-video h3 {
+    margin-right: 0.75em;
+}
+
+section.sensor-processors p {
+    font-size: 1.15em;
+}
+
+div.watch-video i {
+    margin: 0.25em;
+}
+
+div.home-page-img-divider {
+    height: 195px;
+}
+
+/* Deployed Ready Solutions */
+
+section.deployed-ready-solutions li,
+.navbar-nav li {
+    font-size: 1.15em;
+}
+
+div.feature-month {
+    height: auto;
+    width: 100%;
+    padding: 3em 2em;
+    margin: 0;
+}
+
+div.feature-month h3,
+div.feature-month h5 {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #c6daee;
+    padding: 1.75em 0;
+}
+
+footer h4,
+footer h6 {
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
