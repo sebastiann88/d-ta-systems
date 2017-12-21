@@ -169,8 +169,10 @@ div.feature-month {
     background-color: #e5eff7;
 }
 
-a.monthly-feature {
+a.monthly-feature,
+h5.monthly-feature {
     color: #000;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 a.monthly-feature:hover {
